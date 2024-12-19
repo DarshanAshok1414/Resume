@@ -1,0 +1,112 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+}
+
+.hero .hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero .hero-text {
+  text-align: left;
+  max-width: 500px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  margin: 1rem 0;
+}
+
+.hero .profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 1rem;
+  order: 2;
+}
+
+.hero .btn {
+  display: inline-block;
+  background: #00bcd4;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.hero .download-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* About Section */
+.about, .skills, .projects, .contact {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Skills Section */
+.skills-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.skill {
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+/* Projects Section */
+.project-card {
+  background: #f9f9f9;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+/* Contact Section */
+.contact form input, .contact form textarea, .contact form button {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Footer */
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer a {
+  color: #00bcd4;
+}
